@@ -114,7 +114,7 @@
         </Address>
     </Hotel>
       <Hotel>
-        <Name>La Quinta Inn & Suites</Name>
+        <Name>La Quinta Inn and Suites</Name>
         <Phone>520-573-3333</Phone>
         <Address NearestAirport="Tucson International Airport">
             <Number>7001</Number>
