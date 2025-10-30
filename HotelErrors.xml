@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--1.) root element is Hotel, not Hotels-->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://y4zmin.github.io/cse445_a_yrodri47/Hotels.xsd">
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <!--2.) Required attribute NearestAirport is missing-->
+        <Address>
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Hyatt Place</Name>
+        <!--3.) A phone element is missing-->
+        <Address NearestAirport="Sky Harbor">
+            <Number>602</Number>
+            <Street>E. 6th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.5">
+        <Name>Omni</Name>
+        <Phone>602-794-8600</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7</Number>
+            <Street>E. University Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        <!--4.) Address does not have a closing tag-->
+    </Hotel>
+    <Hotel Rating="4.1">
+    <!--5.) Two names are given-->
+        <Name>Sonesta Select</Name>
+        <Name>Wyndham</Name>
+        <Phone>480-966-2800</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>601</Number>
+            <Street>S. Ash Ave</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>University Inn</Name>
+        <Phone>480-966-7221</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>902</Number>
+            <Street>S. Mill Ave</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Renaissance</Name>
+        <Phone>602-333-0000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>100</Number>
+            <Street>N. 1st</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>The Clarendon</Name>
+        <Phone>602-252-7363</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>401</Number>
+            <Street>W. Clarendon Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85013</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Great Wolf Lodge</Name>
+        <Phone>888-962-9653</Phone>
+        <Phone>480-948-9653</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7333</Number>
+            <Street>N. Pima Road</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Hampton Inn</Name>
+        <Phone>888-446-6677</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>601</Number>
+            <Street>N. 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+     <Hotel Rating="2.6">
+        <Name>SureStay Plus by Best Western</Name>
+        <Phone>480-675-9799</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>1429</Number>
+            <Street>N. Scottsdale Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85288</Zip>
+        </Address>
+    </Hotel>
+      <Hotel>
+        <Name>La Quinta Inn and Suites</Name>
+        <Phone>520-573-3333</Phone>
+        <Address NearestAirport="Tucson International Airport">
+            <Number>7001</Number>
+            <Street>S. Tucson Blvd</Street>
+            <City>Tucson</City>
+            <State>AZ</State>
+            <Zip>85706</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
